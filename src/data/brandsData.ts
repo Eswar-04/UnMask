@@ -1,4 +1,3 @@
-
 export interface SubBrand {
   id: number;
   name: string;
@@ -313,6 +312,150 @@ export const brandsData: Brand[] = [
         name: "Häagen-Dazs", 
         logo: "https://upload.wikimedia.org/wikipedia/en/3/3e/Haagen-Dazs_logo.svg",
         description: "Ice cream brand" 
+      }
+    ]
+  },
+  {
+    id: 9,
+    name: "Coca-Cola Company",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Coca-Cola_logo.svg/1200px-Coca-Cola_logo.svg.png",
+    category: ["Most Viewed", "Trending"],
+    rating: 4.4,
+    subBrands: [
+      { 
+        id: 901, 
+        name: "Sprite", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Sprite_logo.svg/1200px-Sprite_logo.svg.png",
+        description: "Lemon-lime flavored soft drink" 
+      },
+      { 
+        id: 902, 
+        name: "Fanta", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Fanta_logo_%282018%29.svg/1200px-Fanta_logo_%282018%29.svg.png",
+        description: "Fruit-flavored carbonated soft drink" 
+      },
+      { 
+        id: 903, 
+        name: "Dasani", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Dasani_Logo.svg/2560px-Dasani_Logo.svg.png",
+        description: "Bottled water brand" 
+      },
+      { 
+        id: 904, 
+        name: "Minute Maid", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Minute_Maid_logo.svg/2560px-Minute_Maid_logo.svg.png",
+        description: "Fruit juice and beverage brand" 
+      }
+    ]
+  },
+  {
+    id: 10,
+    name: "Unilever",
+    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e4/Unilever.svg/1200px-Unilever.svg.png",
+    category: ["Suspicious", "Most Viewed"],
+    rating: 3.8,
+    subBrands: [
+      { 
+        id: 1001, 
+        name: "Dove", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Logo_of_Dove.svg/2560px-Logo_of_Dove.svg.png",
+        description: "Personal care brand" 
+      },
+      { 
+        id: 1002, 
+        name: "Axe", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Axe_logo.svg/2560px-Axe_logo.svg.png",
+        description: "Men's grooming products" 
+      },
+      { 
+        id: 1003, 
+        name: "Lipton", 
+        logo: "https://upload.wikimedia.org/wikipedia/en/thumb/2/22/Lipton_logo.svg/1200px-Lipton_logo.svg.png",
+        description: "Tea brand" 
+      },
+      { 
+        id: 1004, 
+        name: "Ben & Jerry's", 
+        logo: "https://upload.wikimedia.org/wikipedia/en/thumb/9/9c/Ben_%26_Jerry%27s_logo.svg/1200px-Ben_%26_Jerry%27s_logo.svg.png",
+        description: "Ice cream brand" 
+      },
+      { 
+        id: 1005, 
+        name: "Hellmann's", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Hellmann%27s_logo.svg/2560px-Hellmann%27s_logo.svg.png",
+        description: "Mayonnaise and condiment brand" 
+      }
+    ]
+  },
+  {
+    id: 11,
+    name: "Procter & Gamble",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Procter_%26_Gamble_logo.svg/2560px-Procter_%26_Gamble_logo.svg.png",
+    category: ["Recently Acquired", "Most Viewed"],
+    rating: 4.1,
+    subBrands: [
+      { 
+        id: 1101, 
+        name: "Tide", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Tide_logo_2008.png/2560px-Tide_logo_2008.png",
+        description: "Laundry detergent" 
+      },
+      { 
+        id: 1102, 
+        name: "Gillette", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Gillette_logo.svg/2560px-Gillette_logo.svg.png",
+        description: "Shaving and personal care products" 
+      },
+      { 
+        id: 1103, 
+        name: "Pampers", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/c/c7/Pampers.svg",
+        description: "Baby and toddler products" 
+      },
+      { 
+        id: 1104, 
+        name: "Oral-B", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Oral-B_logo.svg/2560px-Oral-B_logo.svg.png",
+        description: "Oral hygiene products" 
+      },
+      { 
+        id: 1105, 
+        name: "Pantene", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Pantene_logo.svg",
+        description: "Hair care products" 
+      }
+    ]
+  },
+  {
+    id: 12,
+    name: "Samsung",
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png",
+    category: ["Trending", "Most Viewed"],
+    rating: 4.5,
+    subBrands: [
+      { 
+        id: 1201, 
+        name: "Samsung Electronics", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Samsung_wordmark.svg/2560px-Samsung_wordmark.svg.png",
+        description: "Consumer electronics" 
+      },
+      { 
+        id: 1202, 
+        name: "Samsung Display", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Samsung_wordmark.svg/2560px-Samsung_wordmark.svg.png",
+        description: "Display technology" 
+      },
+      { 
+        id: 1203, 
+        name: "Samsung SDS", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Samsung_wordmark.svg/2560px-Samsung_wordmark.svg.png",
+        description: "IT solutions and services" 
+      },
+      { 
+        id: 1204, 
+        name: "Samsung Life Insurance", 
+        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Samsung_wordmark.svg/2560px-Samsung_wordmark.svg.png",
+        description: "Insurance services" 
       }
     ]
   }
